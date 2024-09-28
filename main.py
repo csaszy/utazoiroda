@@ -4,7 +4,7 @@ def main():
     prices = []
     count = 0
 
-    # az adatok beolvaása és tárolása
+    # az adatok beolvasása és tárolása
     with sys.stdin as file:
         next(file)
         for line in file:
